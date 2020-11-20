@@ -156,6 +156,8 @@ def _run(handle_data,
     first_trading_day = \
         bundle_data.equity_minute_bar_reader.first_trading_day
 
+    # see https://github.com/quantopian/zipline/issues/2789 for the reason of this
+    # modification
     data = DataPortal(
         bundle_data.asset_finder,
         trading_calendar=trading_calendar,
@@ -163,6 +165,8 @@ def _run(handle_data,
         equity_minute_reader=bundle_data.equity_minute_bar_reader,
         equity_daily_reader=bundle_data.equity_daily_bar_reader,
         adjustment_reader=bundle_data.adjustment_reader,
+        future_minute_reader=bundle_data.equity_minute_bar_reader,
+        future_daily_reader=bundle_data.equity_daily_bar_reader
     )
 
     pipeline_loader = USEquityPricingLoader.without_fx(
