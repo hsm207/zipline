@@ -98,6 +98,28 @@ FUTURE_EXCHANGE_FEES_BY_SYMBOL = {
     'XG': 0.75,  # Gold e-mini
     'YM': 1.50,  # Dow Jones e-mini
     'YS': 0.75,  # Silver e-mini
+    "_C": 1.0,
+    "CC": 1.0,
+    "CT": 1.0,
+    "CU": 1.0,
+    "DA": 1.0,
+    "DX": 1.0,
+    "KC": 1.0,
+    "KW": 1.0,
+    "LO": 1.0,
+    "LG": 1.0,
+    "LR": 1.0,
+    "LS": 1.0,
+    "MP": 1.0,
+    "NE": 1.0,
+    "_O": 1.0,
+    "OJ": 1.0,
+    "RB": 1.0,
+    "_S": 1.0,
+    "SI": 1.0,
+    "TW": 1.0,
+    "TF": 1.0,
+    "_W": 1.0,
 }
 
 # See `zipline.finance.slippage.VolatilityVolumeShare` for more information on
@@ -176,4 +198,26 @@ ROOT_SYMBOL_TO_ETA = {
     'XG': DEFAULT_ETA,           # Gold e-mini
     'YM': DEFAULT_ETA,           # Dow Jones e-mini
     'YS': DEFAULT_ETA,           # Silver e-mini
+    "_C": DEFAULT_ETA,
+    "CC": DEFAULT_ETA,
+    "CT": DEFAULT_ETA,
+    "CU": DEFAULT_ETA,
+    "DA": DEFAULT_ETA,
+    "DX": DEFAULT_ETA,
+    "KC": DEFAULT_ETA,
+    "KW": DEFAULT_ETA,
+    "LO": DEFAULT_ETA,
+    "LG": DEFAULT_ETA,
+    "LR": DEFAULT_ETA,
+    "LS": DEFAULT_ETA,
+    "MP": DEFAULT_ETA,
+    "NE": DEFAULT_ETA,
+    "_O": DEFAULT_ETA,
+    "OJ": DEFAULT_ETA,
+    "RB": DEFAULT_ETA,
+    "_S": DEFAULT_ETA,
+    "SI": DEFAULT_ETA,
+    "TW": DEFAULT_ETA,
+    "TF": DEFAULT_ETA,
+    "_W": DEFAULT_ETA,
 }
